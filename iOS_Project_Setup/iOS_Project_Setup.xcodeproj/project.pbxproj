@@ -37,6 +37,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0E9A4927241493009A3D2D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC674227241346003C10B4 /* AppDelegate.swift */,
+				BDAC674427241346003C10B4 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BD0E9A4A2724149A009A3D2D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC674627241346003C10B4 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		BD0E9A4B272414A3009A3D2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC674B27241349003C10B4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BD0E9A4D272414B5009A3D2D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC674D27241349003C10B4 /* LaunchScreen.storyboard */,
+				BDAC674827241346003C10B4 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD0E9A4E272414C8009A3D2D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDAC675027241349003C10B4 /* Info.plist */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BDAC673627241346003C10B4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +98,11 @@
 		BDAC674127241346003C10B4 /* iOS_Project_Setup */ = {
 			isa = PBXGroup;
 			children = (
-				BDAC674227241346003C10B4 /* AppDelegate.swift */,
-				BDAC674427241346003C10B4 /* SceneDelegate.swift */,
-				BDAC674627241346003C10B4 /* ViewController.swift */,
-				BDAC674827241346003C10B4 /* Main.storyboard */,
-				BDAC674B27241349003C10B4 /* Assets.xcassets */,
-				BDAC674D27241349003C10B4 /* LaunchScreen.storyboard */,
-				BDAC675027241349003C10B4 /* Info.plist */,
+				BD0E9A4927241493009A3D2D /* Application */,
+				BD0E9A4E272414C8009A3D2D /* Helpers */,
+				BD0E9A4B272414A3009A3D2D /* Resources */,
+				BD0E9A4D272414B5009A3D2D /* Storyboards */,
+				BD0E9A4A2724149A009A3D2D /* View Controller */,
 			);
 			path = iOS_Project_Setup;
 			sourceTree = "<group>";
@@ -287,7 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_Project_Setup/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS_Project_Setup/Helpers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +345,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS_Project_Setup/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS_Project_Setup/Helpers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
